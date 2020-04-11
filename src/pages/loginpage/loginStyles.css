@@ -1,0 +1,32 @@
+.login-main {
+    height: 90vh;
+    display: flex;
+}
+
+.login-wrapper {
+    margin: auto;
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.login-form {
+    margin: auto;
+    width: 80%;
+}
+
+.btn {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+@media screen and (min-width: 600px) {
+    .login-wrapper {
+        width: 30%;
+    }
+}

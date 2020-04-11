@@ -37,3 +37,23 @@
 .txt-col5 {
     color: #eae7dc;
 }
+
+.border-col1 {
+    border: 3px solid #e8514f;
+}
+
+.border-col2 {
+    border: 3px solid #e98074;
+}
+
+.border-col3 {
+    border: 3px solid #8e8d8a;
+}
+
+.border-col4 {
+    border: 3px solid #d8cca5;
+}
+
+.border-col5 {
+    border: 3px solid #eae7dc;
+}

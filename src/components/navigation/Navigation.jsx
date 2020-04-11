@@ -4,7 +4,7 @@ class Navigation extends Component {
     render() {
         return (
             <nav className="navbar navbar-expand-lg  navbar-light  txt-col1 bg-col4">
-                <a className="navbar-brand" href="#">Navbar</a>
+                <a className="navbar-brand" href="/">Company</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" />
                 </button>
@@ -33,10 +33,10 @@ class Navigation extends Component {
                     </ul>
                     <ul className="navbar-nav my-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link" href="/abc">Login</a>
+                            <a className="nav-link" href="/login">Login</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/abc">Sign Up </a>
+                            <a className="nav-link" href="/register">Sign Up </a>
                         </li>
                     </ul>
                     

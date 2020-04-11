@@ -11,15 +11,16 @@ class HomePage extends Component {
             <div>
                 <Carousel />
                 <br />
-                <CounterCards />
-                <br />
-                <VideoIntro />
-                <br />
-                <ParallaxContainer />
-                <br />
-                <SuccessStories />
-                <br />
-               
+                <div className="container">
+                    <CounterCards />
+                    <br />
+                    <VideoIntro />
+                    <br />
+                    <ParallaxContainer />
+                    <br />
+                    <SuccessStories />
+                    <br />
+                </div>
             </div>
         );
     }
